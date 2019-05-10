@@ -1,0 +1,86 @@
+
+#section .RotationChart {position: relative;}
+#section .r-left{font:0.14rem/0.40rem""; position: absolute;top: -0.40rem; left: 0.79rem; z-index: 2; }
+#section .r-left h5{font:0.16rem/0.40rem"";height: 0.40rem; background: #1885d8;width: 1.80rem; text-align: center; color:#fff;cursor: pointer;}
+#section .RotationChart .r-left ul li{background:rgba(80,183,255,0.8);width:1.80rem;}
+#section .RotationChart .r-left ul  p{position: absolute;display: block; width:3.7rem;height: 4.00rem;background:rgba(244,244,244,0.9); top: 0.4rem; left:1.80rem; display:none; }
+#section .RotationChart .r-left ul  p span{margin: 0 0.2rem;}
+#section .RotationChart .r-left ul li a{display:block; color:#fff; display: flex;  }
+#section .RotationChart .r-left ul li:hover a{background:rgba(255,255,255,0.8); font:700 0.14rem/0.40rem""; color: #299aef;}
+#section .RotationChart .r-left ul li b{width:25px;height: 0.25rem;margin:0.07rem;  background: url(../images/download.gif) no-repeat;  }
+#section .RotationChart .r-left ul li:nth-child(2) b{background-position: 0 -0.41rem;}
+#section .RotationChart .r-left ul li:nth-child(3) b{background-position: 0 -0.78rem;}
+#section .RotationChart .r-left ul li:nth-child(4) b{background-position: 0 -1.20rem;}
+#section .RotationChart .r-left ul li:nth-child(5) b{background-position: 0 -1.59rem;}
+#section .RotationChart .r-left ul li:nth-child(6) b{background-position: 0 -2.00rem;}
+#section .RotationChart .r-left ul li:nth-child(7) b{background-position: 0 -2.40rem;}
+#section .RotationChart .r-left ul li:nth-child(8) b{background-position: 0 -2.80rem;}
+#section .RotationChart .r-left ul li:nth-child(9) b{background-position: 0 -3.20rem;}
+#section .RotationChart .r-left ul li:nth-child(10) b{background-position: 0 -3.60rem;}
+
+#section .r-Chart{  height:4rem;position: relative;overflow: hidden; }
+#section .r-Chart a{position: absolute; left: 100%;}
+#section .r-Chart a:nth-child(1){left: 0;}
+#section .r-Chart span{position: absolute; width: 0.30rem;height: 0.40rem; text-align: center; z-index: 1; font:700 0.18rem/0.40rem"";top: 0; bottom: 0;margin: auto; cursor: pointer; display:none;}
+#section .r-Chart:hover span{background: rgba(100,100,100,0.6);color:#fff; display: block;}
+#section .r-Chart span:nth-of-type(2){left: 0;}
+#section .r-Chart span:nth-of-type(1){right: 0;}
+#section .r-Chart a img{display:block;  width:13.66rem; height: 4rem;}
+
+/* #section .RotationChart .r-right h5{display:flex;justify-content: center; }
+#section .RotationChart .r-right h5 span{display: block; width:0.70rem;height: 0.70rem;border:0.01rem solid #666; border-radius: 50%; text-align: center; margin-top:0.20rem;display:flex;justify-content: center; align-items: center;}
+#section .RotationChart .r-right .den p{display:flex; }
+#section .RotationChart .r-right .den p a{flex: 1;text-align: center; font:700 0.14rem/0.35rem"";}
+#section .RotationChart .r-right .den p a:hover{color:#299aef;} */
+
+#section .RotationChart .r-right .kuai{margin: 0.30rem 0 0 0.10rem;}
+#section .RotationChart .r-right .kuai h4{font:800 0.16rem/0.32rem"";color:#000; border-bottom:0.02rem solid #000;width: 1.00rem; padding-left:0.05rem;margin-bottom:0.10rem;}
+#section .RotationChart .r-right .kuai p{font:0.14rem/0.20rem"";color: #333; text-indent: 2em;padding-left: 0.05rem; margin-top: 0.04rem;color: royalblue;}
+
+
+#section .Spike {margin-top: 0.20rem;}
+
+#section .Spike p{font:800 0.16rem/0.32rem""; color: #299aef;}
+
+#section .Spike ul{display:flex;justify-content: space-between;}
+#section .Spike ul li img{width:2.50rem;}
+
+#section .commodity{margin-top: 0.30rem;border-top: 0.03rem solid #f45; display: flex;}
+#section .commodity p img{height: 4.60rem; width:1.80rem; }
+#section .commodity ul{display: flex;justify-content: space-between; flex-wrap: wrap;}
+#section .commodity ul li{width: 2.00rem; border-right: 0.01rem solid #ddd; border-bottom: 0.01rem solid #ddd; padding-top:0.05rem ;}
+#section .commodity ul .te{border-right: 0;}
+#section .commodity ul li a{display: flex;flex-direction: column; justify-content: center; align-items: center;}
+#section .commodity ul li img{width:1.50rem; height: 1.50rem; }
+#section .commodity ul li span{width:1.53rem;white-space: nowrap; overflow: hidden; font: 0.12rem/0.26rem"";color:#333; }
+#section .commodity ul li b{font:700 0.14rem/0.32rem"";color: #f00;}
+#section .commodity ul li s{display: none; width: 0.8rem; height: 0.3rem;font:700 0.14rem/0.30rem"";color: #fff; background: #f45;text-align: center; border-radius: 0.04rem; margin-bottom: 0.05rem; margin: 0.02rem auto; cursor: pointer;}
+#section .commodity ul li:hover s{display: block;}
+
+#section .food{margin-top: 0.30rem ;border-top: 0.03rem solid #ffbc01; display: flex;}
+#section .food p img{height: 4.60rem; width:1.80rem;}
+#section .food ul{display: flex;justify-content: space-between; flex-wrap: wrap;}
+#section .food ul li{width: 2rem; border-right: 0.01rem solid #ddd; border-bottom: 0.01rem solid #ddd; padding-top:0.20rem ;}
+#section .food ul .te{border-right: 0;}
+#section .food ul li a{display: flex;flex-direction: column; justify-content: center; align-items: center;}
+#section .food ul li img{width:1.50rem; height: 1.50rem; }
+#section .food ul li span{width:1.53rem;white-space: nowrap; overflow: hidden; font: 0.12rem/0.26rem"";color:#333; }
+#section .food ul li b{font:700 0.14rem/0.32rem"";color: #f00;}
+#section .food ul li s{ display: none; width: 0.8rem; height: 0.3rem;font:700 0.14rem/0.30rem"";color: #fff; background: #f45;text-align: center; border-radius: 0.04rem; margin-bottom: 0.05rem; margin: 0.02rem auto; cursor: pointer;}
+#section .food ul li:hover s{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

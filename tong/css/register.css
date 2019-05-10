@@ -1,0 +1,23 @@
+html{font-size: 7.33vw;}
+.land{width: 11.90rem;margin: 0 auto;}
+#header{display: flex; justify-content: space-around;  }
+#header .logo img{ width: 0.70rem; height: 0.70rem;}
+#header .logo span{font:700 0.28rem/0.70rem""; color: #000;margin-left: 0.20rem;}
+#header .deng span{font:0.18rem/0.70rem""; color: #000;}
+#header .deng a{font:0.18rem/0.70rem""; color: #f00; margin:0 0.20rem;}
+
+#signin{ background: rgba(0,0,0);height: 5.0rem; margin-top: 0.20rem; }
+#signin .land{display: flex; justify-content: center;  align-items: center; position: relative;}
+#signin .land p img{width: 7.00rem; height: 5.00rem;}
+#signin form{position: absolute;top:0;left: 0;bottom: 0;right: 0;margin: 0; background:rgba(0, 0, 0, 0.7); display:flex; flex-direction: column;justify-content: center; align-items: center; }
+#signin form input{border:0; background:0; }
+#signin form h4{font:700 0.24rem/0.50rem""; color: #fff; margin-bottom:0.30rem; text-align: center;}
+#signin form p{display:flex;margin-bottom: 0.20rem;  width: 3.5rem;}
+#signin [type="text"]{width: 2.00rem; height: 0.25rem; border:0.01rem solid #fff; padding-left: 0.10rem; border-radius: 0.04rem; color: #fff;}
+#signin [type="password"]{width: 2.00rem; height: 0.25rem; border:0.01rem solid #fff; padding-left: 0.10rem; border-radius: 0.04rem; color: #fff;}
+#signin form span{font:600 0.14rem"";color:#fff;width: 0.60rem; }
+#signin form [type="button"]{display: block; width: 1.50rem; height: 0.30rem;color:#fff; background: #288aef; border-radius: 0.05rem; margin-bottom: 0.10rem; cursor: pointer;}
+#signin form p b{color:#fff;font:0.12rem/0.25rem""; margin-left: 0.05rem;}
+#footer .top{display: flex; justify-content: space-around;margin-top:0.10rem;}
+
+#footer .bottom{font: 0.12rem/0.32rem"";color:#666;text-align: center;}

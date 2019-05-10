@@ -1,0 +1,24 @@
+#section h4{font:700 0.22rem/0.34rem""; color: #fff;width: 2rem; background: #48f; border: 0.01rem solid #27f;margin: 0.2rem 0; text-align: center;border-radius: 70%;}
+#section .commodity{border-top: 0.03rem solid #f45; display: flex;}
+#section .commodity p img{height: 4.60rem; width:1.80rem; }
+#section .commodity ul{display: flex;justify-content: space-between; flex-wrap: wrap;}
+#section .commodity ul li{width: 2.00rem; border-right: 0.01rem solid #ddd; border-bottom: 0.01rem solid #ddd; padding-top:0.05rem ;}
+#section .commodity ul .te{border-right: 0;}
+#section .commodity ul li a{display: flex;flex-direction: column; justify-content: center; align-items: center;}
+#section .commodity ul li img{width:1.50rem; height: 1.50rem; }
+#section .commodity ul li span{width:1.53rem;white-space: nowrap; overflow: hidden; font: 0.12rem/0.26rem"";color:#333; }
+#section .commodity ul li b{font:700 0.14rem/0.32rem"";color: #f00;}
+#section .commodity ul li s{display: none; width: 0.8rem; height: 0.3rem;font:700 0.14rem/0.30rem"";color: #fff; background: #f45;text-align: center; border-radius: 0.04rem; margin-bottom: 0.05rem; margin: 0.02rem auto; cursor: pointer;}
+#section .commodity ul li:hover s{display: block;}
+#section .food{margin-top: 0.30rem ;border-top: 0.03rem solid #ffbc01; display: flex;}
+#section .food p img{height: 4.60rem; width:1.80rem;}
+#section .food ul{display: flex;justify-content: space-between; flex-wrap: wrap;}
+#section .food ul li{width: 2rem; border-right: 0.01rem solid #ddd; border-bottom: 0.01rem solid #ddd; padding-top:0.20rem ;}
+#section .food ul .te{border-right: 0;}
+#section .food ul li a{display: flex;flex-direction: column; justify-content: center; align-items: center;}
+#section .food ul li img{width:1.50rem; height: 1.50rem; }
+#section .food ul li span{width:1.53rem;white-space: nowrap; overflow: hidden; font: 0.12rem/0.26rem"";color:#333; }
+#section .food ul li b{font:700 0.14rem/0.32rem"";color: #f00;}
+#section .food ul li s{ display:none;  width: 0.8rem; height: 0.3rem;font:700 0.14rem/0.30rem"";color: #fff; background: #f45;text-align: center; border-radius: 0.04rem; margin-bottom: 0.05rem; margin: 0.02rem auto; cursor: pointer;}
+#section .food ul li:hover s{display: block;}
+
